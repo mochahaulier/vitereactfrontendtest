@@ -43,7 +43,7 @@ function Todo({ todo, editedTodo, onEdit, onAbortEdit }: TodoProps) {
                 : {}
             }
           >
-            {todo.id}: {todo.todoText}
+            {todo.todoText}
           </p>
         ) : (
           <p
@@ -53,7 +53,7 @@ function Todo({ todo, editedTodo, onEdit, onAbortEdit }: TodoProps) {
               backdropFilter: "blur(8px)",
             }}
           >
-            {idEdit}- {editedTodo.todoText}
+            {editedTodo.todoText}
           </p>
         )}
       </MDBListGroupItem>
