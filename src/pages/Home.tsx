@@ -17,7 +17,6 @@ import {
   MDBModalBody,
 } from "mdb-react-ui-kit";
 import { InfinitySpin } from "react-loader-spinner";
-import { useEffect } from "react";
 
 export default function Home() {
   const {
@@ -29,10 +28,6 @@ export default function Home() {
     onEdit,
     onAbortEdit,
   } = useTodo();
-
-  useEffect(() => {
-    console.log(editedTodo);
-  }, [editedTodo]);
 
   return (
     <>
