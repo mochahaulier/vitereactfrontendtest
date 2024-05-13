@@ -1,3 +1,20 @@
+# ViteReactFrontendTest
+
+A slightly cleaned-up version of ReactPostresqlTest, using Vite & Typescript now. Added SWR for fetching data,  making it cleaner and more straightforward. 
+
+A quick test of developing a React CRUD frontend using Axios by implementing a Todo List.
+
+The app connects to Spring boot backend REST Api deployed on Render, using a PostgreSQL DB.
+
+Using React, Vite, Typescript, HTML, and (S)CSS.
+
+> [!IMPORTANT]  
+> The instance running the backend will spin down with inactivity, which can delay initial requests by 50 seconds or more.
+
+## Screenshots
+
+![ViteReactFrontendTest GUI gif](reactpostgresqltest.png)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
