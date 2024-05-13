@@ -13,7 +13,7 @@ Using React, Vite, Typescript, HTML, and (S)CSS.
 
 ## Screenshots
 
-![ViteReactFrontendTest GUI gif](reactpostgresqltest.png)
+![ViteReactFrontendTest GUI gif](vitereactfrontendtest.png)
 
 # React + TypeScript + Vite
 
